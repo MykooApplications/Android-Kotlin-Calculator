@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="C"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <TextView
+                android:id="@+id/calcTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".3344"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/eightButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/nineButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="9"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/divideButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="/"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fourButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/fiveButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/sixButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/multiplyButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="X"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/oneButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/twoButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/threeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/minusButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/zeroButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/dotButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="."
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/equalButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="="
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
